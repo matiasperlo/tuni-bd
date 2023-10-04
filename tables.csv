@@ -1,7 +1,7 @@
 texturas
 tipos_medida
-medidas_componentes
-medidas_pieza
+medidas_componente
+recortes_pieza
 componentes
 piezas_articulo
 articulos
@@ -18,7 +18,5 @@ articulos_Y_categorias
 articulos_Y_impuestos
 roles_Y_permisos
 disenios_articulo
-precios_componente_madera
-precios_componente_comun
-texturas_Y_componentes
-piezas_Y_texturas
+precios_componente
+proveedores

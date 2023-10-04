@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS "proveedores"(
+    "id" INTEGER NOT NULL,
+    "nombre" TEXT NOT NULL,
+    CONSTRAINT "PK_proveedores" PRIMARY KEY("id" AUTOINCREMENT)
+);
