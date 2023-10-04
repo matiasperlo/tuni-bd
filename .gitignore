@@ -1,4 +1,10 @@
+#  modelado de sinvas
 sinvas/DER/
 sinvas/*.~dx
 
-schema-bk.sql
+# carpetas de backup manual y misc
+backup/*
+misc/*
+
+# dejar el build del TEST
+db/BDArvol_TEST.db

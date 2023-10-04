@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS "disenios" (
+	"id" INTEGER NOT NULL,
+	"nombre" TEXT NOT NULL,
+	"descripcion" TEXT,
+	CONSTRAINT "PK_disenios" PRIMARY KEY("id" AUTOINCREMENT)
+);

@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS "tipos_medida" (
+	"id" INTEGER NOT NULL,
+	"nombre" TEXT NOT NULL,
+	CONSTRAINT "PK_tipos_medida" PRIMARY KEY("id" AUTOINCREMENT)
+);
