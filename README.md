@@ -1,37 +1,5 @@
 # Explicacion del DER
 
-## Tablas
-
-### Artículo
-
-- **foto_principal** corresponde a una foto principal que se va a asociar al artículo en el momento de la carga. Es solo una.
-
-### Diseños-Artículo
-
-- solo se asocia **foto_disenio** por diseño del artículo, como máximo
-
-
-### Tablas de Precios
-
-- poseen una **fecha_alta** que nos ayuda a llevar el registro del historial de precios **( algo que el cliente quiere )**. Por este mismo motivo que conformaría parte del conjunto mínimo necesario para la identificación unívoca de un registro de precios (clave primaria), ya que de esa forma de identifican todos los registros hechos en el tiempo como únicos y diferentes entre sí.
-
-### PrecioComponente
-
-- Debido a que cada componente solo puede corresponder a una textura particular (si la tiene), todos los componentes pueden compartir la misma tabla de precios, evitando separarlos.
-
-### PrecioComponenteComun
-
-- se refiere a todos aquellos componentes que se trabajan en unidades, dejando del otro lado a los de madera, que son modificados usando la maquinaria.
-
-### PrecioComponenteMadera
-
-- se refiere específicamente a los componentes que se asocian a una textura en su precio, es decir todos aquellas en base de madera, principalmente fibropaneles MDF.
-
-### Precio hs hombre-maquina
-
-- En este caso particular de historial de precios no es necesario que la fecha forme parte del identificador de la tabla porque son tablas dedicadas exclusivamente a un solo precio que se va actualizando. Basta con asignarles un id autoincremental.
-- En cuanto a la unidad de tiempo, es necesario almacenarlo en **costo por minutos** para facilitar el cálculo de acuerdo a los tiempos ingresados por artículo.
-
 ### Precio artículo
 
 - Esta tabla recibirá el cálculo de cada artículo, para cada combinación de texturas y proveedores disponibles según lo determinen sus piezas y componentes, por cada artículo. Este cálculo es automático y se realiza **cada ves que hay un cambio nuevo** lo que produce una **actualizacion masiva en cascada** de los precios. Esto incluye:
@@ -51,8 +19,3 @@
 
 - Componentes tiene relacion con una textura opcional. Un componente con una textura distinta es necesariamente un componente diferente. Para poder agilizar la carga de componentes nuevos en este caso, podriamos cargar componentes en base a uno existente.
 
-### Pieza Artículo
-
-- Tendrá asociado un **id_textura** e **id_proveedor** para determinar de manera predeterminada al componente que utiliza, lo que facilitaría el cálculo.
-
-### Tablas de medidas
