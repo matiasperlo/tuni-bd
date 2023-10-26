@@ -186,24 +186,30 @@ class Articulo:
         self.oferta = oferta
 
 
+# creacion de un articulo nuevo
 art1 = Articulo("Panel Decorativo")
 
+# creacion de componentes
 med1 = Medidas()
 comp1 = Componente("Placa MDF", 15940., med1)
 comp2 = Componente("Regaton", 70.)
 
+# Pieza 1 para el artículo
 pieza1 = PiezaArticulo("Panel", 1, comp1)
 
 med2 = Medidas(850.)
 pieza1.setMedidas(med2)
 
+# Pieza 2 para el artículo
 pieza2 = PiezaArticulo("Pata", 2, comp1)
 
 med3 = Medidas(250.,250.)
 pieza2.setMedidas(med3)
 
+# Pieza 3 para el artículo
 pieza3 = PiezaArticulo("Regaton", 4, comp2)
 
+# listado de piezas para agregar al artículo
 piezas = []
 piezas.append(pieza1)
 piezas.append(pieza2)
@@ -211,4 +217,5 @@ piezas.append(pieza3)
 
 art1.setPiezas(piezas)
 
+# obtener el presupuesto para esta configuración del artículo
 print("Artículo:", art1.nombre, " precio:", art1.obtenerPrecio())

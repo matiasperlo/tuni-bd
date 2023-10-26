@@ -1,0 +1,8 @@
+CAMBIOS BD:
+- min_hombre ahora va en artículo
+- recorte_pieza pasa a medidas_pieza
+- agrego columa máquina
+- precios_hs_hombre y precios_hs_maquina renombrados a precios_min_hombre y precios_min_maquina
+- agrego fecha_registro y fecha_baja componentes
+- actualizo tabla proveedores
+- actualizo tabla precio_componentes
