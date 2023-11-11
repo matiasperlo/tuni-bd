@@ -5,7 +5,6 @@ CREATE TABLE IF NOT EXISTS "precios_componente"(
     "importe" REAL NOT NULL,
     "fecha_registro" INTEGER NOT NULL,
     "fecha_alta" INTEGER,
-    "fecha_modificacion" INTEGER,
     "activo" INTEGER,
     "presentacion" INTEGER NOT NULL,
     CONSTRAINT "PK_precios_componente" PRIMARY KEY("id" AUTOINCREMENT),

@@ -1,6 +1,5 @@
 CREATE TABLE IF NOT EXISTS "impuestos" (
 	"id" INTEGER NOT NULL,
-	"id_tipo_impuesto" INTEGER NOT NULL,
 	"nombre" TEXT NOT NULL,
 	"descripcion" TEXT,
 	"porcentaje" REAL NOT NULL,

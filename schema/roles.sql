@@ -1,6 +1,0 @@
-CREATE TABLE IF NOT EXISTS "roles" (
-	"id" INTEGER NOT NULL,
-	"nombre" TEXT NOT NULL,
-	"descripcion" TEXT,
-	CONSTRAINT "PK_roles" PRIMARY KEY("id" AUTOINCREMENT)
-);
