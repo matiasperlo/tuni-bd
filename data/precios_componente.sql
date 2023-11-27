@@ -1,4 +1,5 @@
-INSERT INTO precios_componente VALUES(1,15940.0,1680369453,1,1);
-INSERT INTO precios_componente VALUES(2,23610.0,1680369453,2,1);
-INSERT INTO precios_componente VALUES(3,21270.0,1680369453,5,1);
-INSERT INTO precios_componente VALUES(4,28900.0,1680369453,3,1);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion, fecha_modificacion) VALUES (1, 5, 1, 15940, 1699930354, 1699920000000, 1, 1, null);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion, fecha_modificacion) VALUES (2, 5, 2, 11395, 1699930386, 1699920000000, 1, 1, null);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion, fecha_modificacion) VALUES (3, 5, 1, 18940, 1699930409, 1699920000000, 1, 2, null);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion, fecha_modificacion) VALUES (4, 11, 4, 300, 1699930864, 1699920000000, 1, 1, null);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion, fecha_modificacion) VALUES (5, 11, 4, 1000, 1699930872, 1699920000000, 1, 4, null);

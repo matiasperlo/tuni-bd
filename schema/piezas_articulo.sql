@@ -4,7 +4,6 @@ CREATE TABLE IF NOT EXISTS "piezas_articulo" (
 	"id_articulo" INTEGER NOT NULL,
 	"descripcion" TEXT NOT NULL,
 	"cant_piezas" INTEGER NOT NULL,
-	"cant_componentes" INTEGER NOT NULL,
 	"id_maquina" INTEGER,
 	"min_maquina" INTEGER,
 	CONSTRAINT "PK_piezas_articulo" PRIMARY KEY("id" AUTOINCREMENT),

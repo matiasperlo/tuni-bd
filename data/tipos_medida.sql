@@ -1,3 +1,3 @@
-INSERT INTO tipos_medida VALUES(1,'Largo');
-INSERT INTO tipos_medida VALUES(2,'Ancho');
-INSERT INTO tipos_medida VALUES(3,'Espesor');
+INSERT INTO tipos_medida (id, nombre) VALUES (1, 'largo');
+INSERT INTO tipos_medida (id, nombre) VALUES (2, 'ancho');
+INSERT INTO tipos_medida (id, nombre) VALUES (3, 'espesor');

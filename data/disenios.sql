@@ -1,0 +1,10 @@
+INSERT INTO disenios (id, nombre, descripcion) VALUES (1, 'PALM', '');
+INSERT INTO disenios (id, nombre, descripcion) VALUES (2, 'GRID', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (3, 'HERBA', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (4, 'HILA', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (5, 'BLOK', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (6, 'ARABETTO', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (7, 'PETRA', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (8, 'NETT', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (9, 'CLASSIC', null);
+INSERT INTO disenios (id, nombre, descripcion) VALUES (10, 'ROSÉ', null);

@@ -1,6 +1,12 @@
-INSERT INTO componentes VALUES(1,'MDF CRUDO 15mm','');
-INSERT INTO componentes VALUES(2,'MDF PINTADO 15mm ',NULL);
-INSERT INTO componentes VALUES(3,'MDF MELAMINA TEXTURIZADO 18mm',NULL);
-INSERT INTO componentes VALUES(4,'CHAPA 1,25 mm',NULL);
-INSERT INTO componentes VALUES(5,'MDF MELAMINA BLANCA 15mm',NULL);
-INSERT INTO componentes VALUES(6,'Regaton','soporte de patas para los paneles');
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (1, 'MDF CRUDO 3mm', '', 1699764288, 1699764288, 1, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (2, 'MDF CRUDO 5mm', '', 1699764487, 1699764487, 1, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (3, 'MDF CRUDO 9mm', null, 1699764504, 1699764504, 1, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (4, 'MDF CRUDO 12mm', '', 1699764555, 1699764555, 1, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (5, 'MDF CRUDO 15mm', null, 1699764569, 1699764569, 1, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (6, 'MDF CRUDO 18mm', null, 1699764585, 1699764585, 0, 1);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (7, 'MDF BLANCO 15mm', '', 1699764692, 1699764692, 1, 3);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (8, 'MDF BLANCO 18mm', null, 1699764716, 1699764716, 1, 3);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (9, 'MDF HELSINSKI 18mm', null, 1699764754, 1699764754, 0, 2);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (10, 'MDF EVEREST 18mm', null, 1699764782, 1699764782, 1, 4);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (11, 'REGATON RECTANGULAR', 'Regatones rectangulares de goma para soporte de patas', 1699929517, 1699929517, 1, null);
+INSERT INTO componentes (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, id_textura) VALUES (12, 'MOTOR RELOJ PARED', 'Mecanismo para relojes de pared', 1699929694, 1699929694, 1, null);

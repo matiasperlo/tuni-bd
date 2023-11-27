@@ -1,0 +1,10 @@
+INSERT INTO sqlite_sequence (name, seq) VALUES ('tipos_medida', 3);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('articulos', 16);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('componentes', 12);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('disenios', 10);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('texturas', 9);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('proveedores', 4);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('piezas_articulo', 5);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('precios_componente', 5);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('precios_min_hombre', 7);
+INSERT INTO sqlite_sequence (name, seq) VALUES ('precios_min_maquina', 1);
