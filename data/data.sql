@@ -98,15 +98,15 @@ INSERT INTO medidas_componente (id_tipo_medida, id_componente, valor) VALUES (1,
 INSERT INTO medidas_componente (id_tipo_medida, id_componente, valor) VALUES (2, 10, 1830);
 
 -- precios componente
-INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion) VALUES (1, 5, 1, 15940, 1699930354, 1699920000000, 1, 1);
-INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion) VALUES (2, 5, 2, 11395, 1699930386, 1699920000000, 1, 1);
-INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion) VALUES (3, 5, 1, 18940, 1699930409, 1699920000000, 1, 2);
-INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion) VALUES (4, 11, 4, 300, 1699930864, 1699920000000, 1, 1);
-INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, fecha_alta, activo, presentacion) VALUES (5, 11, 4, 1000, 1699930872, 1699920000000, 1, 4);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, activo, presentacion) VALUES (1, 5, 1, 15940, 1699930354, 1, 1);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, activo, presentacion) VALUES (2, 5, 2, 11395, 1699930386, 1, 1);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, activo, presentacion) VALUES (3, 5, 1, 18940, 1699930409, 1, 2);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, activo, presentacion) VALUES (4, 11, 4, 300, 1699930864, 1, 1);
+INSERT INTO precios_componente (id, id_componente, id_proveedor, importe, fecha_registro, activo, presentacion) VALUES (5, 11, 4, 1000, 1699930872, 1, 4);
 
 -- articulos
-INSERT INTO articulos (id, nombre, descripcion, fecha_registro, fecha_alta, fecha_modificacion, activo, foto_principal, min_hombre) VALUES (3, 'Espejo de Pared', 'Un espejo de pared con diferentes modelos disponibles para salas de espera y probadores.', 1699930030, 1699930030, 1699930030, 0, null, 0);
-INSERT INTO articulos (id, nombre, descripcion, fecha_registro, fecha_alta, fecha_modificacion, activo, foto_principal, min_hombre) VALUES (14, 'Articulos Completo', 'Tengo todos los campos ', 1700581849, 1700581849, 1700581849, 1, 'ad5bda27-9151-4bd6-909a-a4ffeee14390.jpeg', 120);
+INSERT INTO articulos (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, foto_principal, min_hombre) VALUES (3, 'Espejo de Pared', 'Un espejo de pared con diferentes modelos disponibles para salas de espera y probadores.', 1699930030, 1699930030, 0, null, 0);
+INSERT INTO articulos (id, nombre, descripcion, fecha_registro, fecha_modificacion, activo, foto_principal, min_hombre) VALUES (14, 'Articulos Completo', 'Tengo todos los campos ', 1700581849, 1700581849, 1, 'ad5bda27-9151-4bd6-909a-a4ffeee14390.jpeg', 120);
 
 -- disenios articulo
 INSERT INTO disenios_articulo (id_articulo, id_disenio, foto_articulo) VALUES (14, 5, '02c76c49-7822-438b-89fd-a67215b9c2e4.jpeg');
